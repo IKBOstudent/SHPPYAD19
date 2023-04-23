@@ -1,0 +1,8 @@
+2023-04-11 17:39:31.354 [restartedMain] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-11 17:40:15.232 [http-nio-8080-exec-1] INFO  c.e.s.PostOffice.PostOfficeService - created new post office
+2023-04-11 17:40:15.233 [http-nio-8080-exec-1] INFO  c.e.s.ServiceExecutionTimeAspect - Execution of PostOfficeService.createPostOffice took 58 ms
+2023-04-11 17:40:30.928 [http-nio-8080-exec-4] INFO  c.e.s.Departure.DepartureService - added new departure
+2023-04-11 17:40:30.928 [http-nio-8080-exec-4] INFO  c.e.s.ServiceExecutionTimeAspect - Execution of DepartureService.addDeparture took 53 ms
+2023-04-11 17:40:44.356 [http-nio-8080-exec-8] ERROR c.e.s.Departure.DepartureService - departure adding failed: invalid post office id
+2023-04-11 17:40:44.357 [http-nio-8080-exec-8] ERROR c.e.s.ServiceExecutionTimeAspect - Exception occurred during method execution
+2023-04-11 17:40:44.358 [http-nio-8080-exec-8] INFO  c.e.s.ServiceExecutionTimeAspect - Execution of DepartureService.addDeparture took 7 ms
